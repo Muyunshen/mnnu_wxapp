@@ -1,0 +1,18 @@
+<view class="page">
+    <image src="../../resources/img/index.jpg" class="index" mode="aspectFill"></image>
+    <image src="../../resources/img/logo_1.png" class="logo_1"></image>
+    <image src="../../resources/img/logo_2.png" class="logo_2"></image>
+    <view class="card">
+        <ul class="txt">
+            <li>所有的坎坷挫败</li>
+            <li>终被风吹进尘埃</li>
+            <li>不再回来</li>
+            <li>携青春向你走来</li>
+            <li>跨越过星辰大海</li>
+        </ul>
+        <image src="../../resources/img/bg_1.png" class="index_1"></image>
+        <image src="../../resources/img/bg_2.png" class="index_2"></image>
+    </view>
+    <button class="btn" bindtap="handleOk">制作头像</button>
+    <view class="design">Design By 暮云深</view>
+</view>

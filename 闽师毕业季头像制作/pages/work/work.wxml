@@ -1,0 +1,43 @@
+<!--pages/work/work.wxml-->
+<view class="page">
+  <image src="../../resources/img/bg.png" class="index" mode="aspectFill"></image>
+</view>
+<view class="title">生成头像</view>
+<view class="card">
+  <view class="card_top">
+    <image src="{{avatar}}" class="avatar"></image>
+    <image src="{{img_src}}" class="back_avatar"></image>
+    <canvas class="canvas" type="2d" id="canvas" style="width: 400rpx; height: 400rpx;" hidden="false"></canvas>
+  </view>
+  <ul class="txt">
+    <li>一份纪念</li>
+    <li>一份珍重</li>
+    <li>踏上新的征程吧</li>
+    <li>不要忘记闽师大永远欢迎你回家</li>
+  </ul>
+  <image src="../../resources/img/bg_4.png" class="img"></image>
+  <view class="design">Design By 暮云深</view>
+  <view class="card_button">
+    <view>
+      <view class="btn" bindtap="getAvatar">
+        <image src="../../resources/icon/wechat.png" class="img_btn"></image>
+      </view>
+    </view>
+    <view>
+      <view class="btn" bindtap="choose">
+        <image src="../../resources/icon/img.png" class="img_btn"></image>
+      </view>
+    </view>
+    <view>
+      <view class="btn" bindtap="generate">
+        <image src="../../resources/icon/save.png" class="img_btn"></image>
+      </view>
+    </view>
+  </view>
+  <view class="line_1"></view>
+  <view class="text">or</view>
+  <view class="line_2"></view>
+  <view class="title_1">微信头像</view>
+  <view class="title_2">其他图片</view>
+  <view class="title_3">保存头像</view>
+</view>

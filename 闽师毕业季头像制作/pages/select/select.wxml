@@ -1,0 +1,16 @@
+<view class="page">
+    <image src="../../resources/img/bg.png" class="index" mode="aspectFill"></image>
+    <view class="card_top">
+        <image src="../../resources/img/logo_1.png" class="img_school"></image>
+        <view class="txt_1">永远相信</view>
+        <view class="txt_2">美好的事情即将发生</view>
+    </view>
+    <view class="card_item" wx:for="{{list}}" wx:key="title">
+        <view class="titlt">{{item.title}}</view>
+        <view class="item" bindtap="handle" wx:for="{{item.frame}}" wx:key="frame" wx:for-index="childindex"
+            data-index_1="{{index}}" data-index_2="{{childindex}}">
+            <image bindtap="handleOk" src="{{item}}" class="frames" data-imgsrc="{{item}}"
+                data-title="{{list[index].title}}"></image>
+        </view>
+    </view>
+</view>

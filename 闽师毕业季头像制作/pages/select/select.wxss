@@ -1,0 +1,113 @@
+/* pages/select/select.wxss */
+page {
+  padding-top: 1rpx;
+}
+
+.index {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -1;
+}
+
+.page {
+  padding-top: 1rpx;
+}
+
+.card_top {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  padding-top: 60rpx;
+  padding-bottom: 20rpx;
+  border-radius: 0 0 60rpx 60rpx;
+  box-shadow: 0 2px 10px 0 rgba(150, 152, 187, 0.37);
+  border: 1px solid rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+
+
+.img_school {
+  margin-left: 296rpx;
+  width: 157rpx;
+  height: 157rpx;
+  display: block;
+}
+
+.txt_1 {
+  margin-top: 10rpx;
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.txt_2 {
+  margin-top: 10rpx;
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.card_item:nth-child(3) {
+  margin-top: 400rpx !important;
+}
+
+.card_item {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50rpx;
+  margin-left: 40rpx;
+  margin-right: 49rpx;
+  border-radius: 40rpx;
+  box-shadow: 0 2px 10px 0 rgba(150, 152, 187, 0.37);
+  border: 1px solid rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+
+.card_item:last-child {
+  margin-bottom: 100rpx;
+}
+
+.card_item::before {
+  content: '';
+  position: absolute;
+  background-color: skyblue;
+  width: 10rpx;
+  height: 50rpx;
+  margin: 30rpx 0 0 40rpx;
+}
+
+.titlt {
+  position: absolute;
+  margin: 30rpx 0 0 60rpx;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.item:nth-child(-n+4) {
+  margin: 130rpx 15rpx 50rpx 40rpx !important;
+}
+
+.item {
+  margin: 10rpx 15rpx 50rpx 40rpx;
+  width: 160rpx;
+  height: 160rpx;
+}
+
+.item_hover {
+  border-color: red;
+  border-width: 1rpx;
+  border-style: solid;
+  background-color: pink;
+}
+
+.frames {
+  height: 100%;
+  width: 100%;
+}
